@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.env
+.vscode/ # VS Code settings, if you use it
+
+# Django
+*.log
+*.sqlite3
+db.sqlite3 # Specific to your project's default SQLite DB
+/media/
+/static/ # If using collectstatic
+.DS_Store # macOS specific
+.idea/ # PyCharm specific
+
+# IDEs and other local files
+.history/
+.ipynb_checkpoints/
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Virtualenv
+# =============
+.venv/
+bin/
+include/
+lib/
+lib64/
+local/
+share/
+pip-selfcheck.json
